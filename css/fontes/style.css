@@ -1,0 +1,28 @@
+/* @font-face { 
+    font-family:'Angelia' ;
+    src: url('Angelia Beauty.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    h1{
+    font-family: 'Angelia', times;
+    font-size: 4em;
+}
+}*/
+
+body{
+
+    font: normal 16px Arial, Verdana, serif ;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+

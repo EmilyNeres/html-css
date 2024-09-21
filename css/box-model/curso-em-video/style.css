@@ -1,0 +1,17 @@
+h1{
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkslategray ;
+ /* em sentido horário, 1° top 2° rigth(direita), 3°bottom(baixo), 4°left(esquerda) */
+    padding: 10px 20px 30px 40px ;
+
+    margin: 10px 10px 20px 10px; 
+
+    /* width, style,color */
+    outline: 5px dashed salmon;
+}
+
+a{
+    border: 10px solid red;
+}

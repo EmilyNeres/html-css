@@ -1,0 +1,15 @@
+body{
+    font: 14pt Arial;
+}
+
+#p1{
+    text-align: right
+}
+
+#p2{
+    text-align: center
+}
+
+#p3{
+    text-align: justify
+}

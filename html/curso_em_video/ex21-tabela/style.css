@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px; /*horizontal*/
+   /* height: 400px; vertical*/
+    border-collapse: collapse;
+   /*cabeçalho movel*/ position: relative;
+}
+thead, tfoot{
+    background-color: gray;
+color: white;
+}
+
+/*para deixar o cabeçalho movel dentro da tabela. Antes e necessario deixar o table relative*/
+thead > tr >th{
+    position: sticky;
+    top: -1;
+    background-color: gray;
+}
+
+
+/*o 2n define de quantas em quantas linhas ira aplicar este efeito, tabém pode ser usar par(even) e impar(odd)*/
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /* alinhamento horizontal do texto*/
+    vertical-align: middle;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
