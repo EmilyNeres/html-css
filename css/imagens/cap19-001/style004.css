@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    border: solid 2px;
+    background-image: url("./assets/mascote.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}

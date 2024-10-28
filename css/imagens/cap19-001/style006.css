@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    background-image: url('assets/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed ; 
+
+    /* shorthand-background 
+    color, image, position, repeat, size(o size é o unico que não funciona dentro da shorthand, apesar da documentação dizer que sim), attachment*/
+
+    background: black url('assets/wallpaper002.jpg') center center no-repeat  fixed;
+    background-size: cover;
+    
+
+}
+
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: solid 1px grey;
+    border-radius: 15px;
+}
